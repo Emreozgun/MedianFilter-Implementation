@@ -53,7 +53,7 @@ An effective noise reduction method for this type of noise is a **median filter*
 
 ## Results 
 
-
+![Alt text](Samples/b.png_scalar_.png?raw=true "Title")
   
 ## Support
 
