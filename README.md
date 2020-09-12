@@ -1,7 +1,9 @@
 
 # MyShell
 
-> It is my shell that named gtushell.You can run it with Makefile on terminal.Shell supports some basic commands in linux shell.You can find these commands - [Features](#features) . 
+> Salt-and-pepper noise is a form of noise sometimes seen on images. It is also known as impulse noise. This noise can be caused by sharp and sudden disturbances in the image signal. It presents itself as sparsely occurring white and black pixels.
+
+An effective noise reduction method for this type of noise is a **median filter** or a morphological filter.I have been implemented median filter with three different ordering methods.These are Lexicographical ordering, Bitmix ordering and Norm based ordering.The median filter run through each element of the signal (in this case the image) and replace each pixel with the median of its neighboring pixels (located in a square neighborhood around the evaluated pixel).I want to observe different methods on median filter and comparing these.  - [Features](#features) . 
 
 > This project is an application that runs through the console.
 
@@ -20,16 +22,11 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Badges](https://img.shields.io/badge/open-source-blueviolet.svg)
 
-***SOME PICTURE FROM SHELL***
-
-![Screenshot from 2020-01-21 18-42-31](https://user-images.githubusercontent.com/30092986/72819411-4470a400-3c7e-11ea-9318-5e1f3927d31e.png)
-
----
-
 ## Table of Contents
 
 - [Installation](#installation)
 - [Features](#features)
+- [Results](#results)
 - [Support](#support)
 
 ## Installation
@@ -44,41 +41,17 @@
 
 
 ## Features
-  ### Commands 
+  ### Lexicographical ordering 
 - My shell support the following commands:
-  #### lsf
+  ### Bitmix ordering
   >which will list file type (R for regular file, S for non-regular(special) file), access rights (int the
   form of rwxr-xr-x, just like actual ls), file size(bytes) and file name of all files (not directories) in
   the present working directory. It doesn’t take any argument. Does not list any directory.
-  #### pwd
+  ### Norm based ordering
   > which will print the path of present working directory.
-  #### cd
-  > which will change the present working directory to the location provided as argument.
-  #### help 
-  > which will print the list of supported commands.
-  #### cat 
-  > which will print on standard output the contents of the file provided to it as argument or from
-  standard input. The file can be on any directory on the system. (example, cat file.txt )(example2,
-  pwd | cat )
-  #### wc 
-  > which will print on standard output the number of lines in the file provided to it as argument
-  or the string coming from standard input until EOF character (example, Input: wc file.txt Output:55)
-  (example2, Input: lsf | wc Output: 5 (there are 5 files in current directory so output of lsf has 5
-  lines)).
-  #### bunedu 
-  > the file path argument of bunedu can also come from standard. bunedu command, short for disk usage, is used to estimate   file space usage.The bunedu command can be used to track the files and directories which are consuming excessive amount of   space on hard disk drive.
-  #### exit 
-  > That command which will exit the shell.
-
-  ### Other features 
-  - When the user types !n , the n-th previous command will run (Its like up and down arrow keys).
-  - Each command supports have a single pipe "|" or a single redirection operator > <.
-  - You can use Ctr-C to exit from gtushell.
 
 
-**I like linux penguins :)**
-
-![ttystudio GIF](https://media.giphy.com/media/4Zgy9QqzWU8C3ugvCa/giphy.gif)
+## Results 
 
 
   
