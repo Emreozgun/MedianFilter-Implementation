@@ -1,7 +1,7 @@
 
 # Median Filter Implementation with different ordering methods
 
-> Salt-and-pepper noise is a form of noise sometimes seen on images. It is also known as impulse noise. This noise can be caused by sharp and sudden disturbances in the image signal. It presents itself as sparsely occurring white and black pixels.
+Salt-and-pepper noise is a form of noise sometimes seen on images. It is also known as impulse noise. This noise can be caused by sharp and sudden disturbances in the image signal. It presents itself as sparsely occurring white and black pixels.
 
 An effective noise reduction method for this type of noise is a **median filter** or a morphological filter.I have been implemented median filter with three different ordering methods.These are Lexicographical ordering, Bitmix ordering and Norm based ordering.The median filter run through each element of the signal (in this case the image) and replace each pixel with the median of its neighboring pixels (located in a square neighborhood around the evaluated pixel).I want to observe different methods on median filter and comparing these.
 
