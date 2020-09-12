@@ -54,8 +54,14 @@ An effective noise reduction method for this type of noise is a **median filter*
 ## Results 
  ### First picture - Sample
 ![b](https://user-images.githubusercontent.com/30092986/92998200-2a434900-f521-11ea-827b-17f296c15288.png)
- ### First picture- Result
+ ### Scalar implementation - Result 
 ![b png_scalar_](https://user-images.githubusercontent.com/30092986/92998079-7e99f900-f520-11ea-94b4-a1787292051e.png)
+ ### Norm based ordering - Result
+ ![b png_vector_norm_based_ordering](https://user-images.githubusercontent.com/30092986/92998267-75f5f280-f521-11ea-97f9-0852dd200796.png)
+ ### Lexical ordering - Result
+ ![b png_vector_lexicographical_ordering](https://user-images.githubusercontent.com/30092986/92998278-8efea380-f521-11ea-86ea-1acb5c4b3198.png)
+ ### Bitmax ordering - Result 
+ ![b png_vector_bitMix_ordering](https://user-images.githubusercontent.com/30092986/92998292-a6d62780-f521-11ea-9f3b-fbbaf9471e34.png)
   
 ## Support
 
