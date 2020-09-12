@@ -34,10 +34,13 @@ An effective noise reduction method for this type of noise is a **median filter*
 - All the `code` required to get started
 
 ### Clone
-
-- Clone this repo to your local machine using `https://github.com/Emreozgun/myShell.git`
+- Install python3 and PILL
+-**sudo su** - to root 
+- **"apt-get update && apt-get install python3.6"** - to install python3
+- **"python3 -m pip install Pillow"** - to install PILL 
+- Clone this repo to your local machine using `https://github.com/Emreozgun/MedianFilter-Implementation.git`
 - Then open the terminal and go to the directory where the file is located.
-- Run with **make all && ./gtushell** 
+- Run with **python3 MedianFılter.py** 
 
 
 ## Features
