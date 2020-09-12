@@ -45,14 +45,11 @@ An effective noise reduction method for this type of noise is a **median filter*
 
 ## Features
   ### Lexicographical ordering 
-  >My shell support the following commands:
+  >
   ### Bitmix ordering
-  >which will list file type (R for regular file, S for non-regular(special) file), access rights (int the
-  form of rwxr-xr-x, just like actual ls), file size(bytes) and file name of all files (not directories) in
-  the present working directory. It doesn’t take any argument. Does not list any directory.
+  >
   ### Norm based ordering
-  > which will print the path of present working directory.
-
+  > 
 
 ## Results 
  ### First picture - Sample
