@@ -62,6 +62,8 @@ An effective noise reduction method for this type of noise is a **median filter*
  ![b png_vector_lexicographical_ordering](https://user-images.githubusercontent.com/30092986/92998278-8efea380-f521-11ea-86ea-1acb5c4b3198.png)
  ### Bitmax ordering - Result 
  ![b png_vector_bitMix_ordering](https://user-images.githubusercontent.com/30092986/92998292-a6d62780-f521-11ea-9f3b-fbbaf9471e34.png)
+ ### Opencv Median Filter - Result
+ ![result_opencv](https://user-images.githubusercontent.com/30092986/92998576-2b757580-f523-11ea-8f70-9b67b8a71401.jpg)
   
 ## Support
 
