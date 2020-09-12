@@ -160,7 +160,7 @@ def vector_median_filter(image,kernelSize,func,f) : # marginal
 
 
 def main() : 
-	path = 'part1_samples'
+	path = 'Samples'
 
 	files = []
 	# r=root, d=directories, f = files
